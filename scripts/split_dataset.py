@@ -2,6 +2,7 @@ import os
 import shutil
 import random
 
+# THIS SCRIPT WILL SPLIT THE DATA INTO 3 FILES
 # Paths
 all_images_dir = "data/balanced_subset/images"
 all_labels_dir = "data/balanced_subset/labels"

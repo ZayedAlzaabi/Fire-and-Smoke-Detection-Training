@@ -1,0 +1,7 @@
+names:
+  0: fire
+  1: smoke
+path: D:/Software construction project/dataset
+train: D:/Software construction project/dataset/images/train
+val: D:/Software construction project/dataset/images/val
+test: D:/Software construction project/dataset/images/test

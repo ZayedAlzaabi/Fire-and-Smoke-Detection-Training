@@ -4,6 +4,9 @@ import imagehash
 from PIL import Image
 import cv2
 
+# THIS SCRIPT WILL CLEAN THE DATA (IT WAS USED ON THE ORIGINAL COMBINED DATA)
+
+
 # ==== CONFIGURATION ====
 # Get the directory where the script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

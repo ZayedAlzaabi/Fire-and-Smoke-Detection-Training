@@ -2,6 +2,9 @@ import os
 import shutil
 from collections import defaultdict
 
+# THIS SCRIPT WILL GET AN EQUAL NUMBER OF ALL TYPES
+
+
 # Get the directory where the script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 # Paths relative to the script location

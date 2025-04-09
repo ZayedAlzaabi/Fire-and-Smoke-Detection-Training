@@ -4,6 +4,9 @@ import albumentations as A
 import numpy as np
 from pathlib import Path
 
+# THIS SCRIPT WILL ADD RANDOM AUGMENTATIONS TO THE DATA
+
+
 # Get the directory where the script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
