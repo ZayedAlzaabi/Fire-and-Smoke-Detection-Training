@@ -43,6 +43,38 @@ In order to prepare data from scratch.
 3. Run the scripts 1 to 4 to prepare data for training
 3. Run train_single_model.py on the desired model
 
+## Training Configuration
+### Yolov8n, Yolov8s, Yolov12n & Yolov12s:
+- EPOCHS = 50
+- BATCH_SIZE = 16
+- Initial learning rate (lr0): 0.01
+- Final learning rate (lrf): 0.01 (10% of initial)
+
+### Yolov8m, Yolo12m
+- EPOCHS = 50
+- BATCH_SIZE = 8
+- Initial learning rate (lr0): 0.01
+- Final learning rate (lrf): 0.01 (10% of initial)
+
+All trained models available in the /results folder were trained with the above configuration and used the datasplit below:
+Total: 3996 Images + 2799 Augmented images only in the training data:
+
+* **Train:**
+  * Fire: 933 Images + 933 Augmented Images
+  * Smoke: 933 Images + 933 Augmented Images
+  * Both (Fire & Smoke): 933 Images + 933 Augmented Images
+  * Total: 5598
+* **Val:**
+  * Fire: 266 Images
+  * Smoke: 266 Images
+  * Both (Fire & Smoke): 266 Images
+  * Total: 798
+* **Test:**
+  * Fire: 133 Images 
+  * Smoke: 133 Images 
+  * Both (Fire & Smoke): 133 Images 
+  * Total: 399
+
 ## Requirements
 
 - Python 3.8+
