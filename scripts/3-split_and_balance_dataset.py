@@ -12,7 +12,7 @@ label_dir = "merged_dataset/labels"
 output_base = "dataset"
 split_ratio = {"train": 0.7, "val": 0.2, "test": 0.1}
 class_ids = {"fire": "0", "smoke": "1"}
-max_total_samples = 2000  # Set to None for no limit, or a number to limit total samples across all categories
+max_total_samples = 4000  # Set to None for no limit, or a number to limit total samples across all categories
 
 # === Prepare output folders ===
 for split in split_ratio:
