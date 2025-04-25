@@ -7,14 +7,14 @@ import multiprocessing
 # === Configuration ===
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(BASE_DIR, "dataset", "data.yaml")  # Use absolute path from project root
-EPOCHS = 50
+EPOCHS = 200
 IMG_SIZE = 640
 BATCH_SIZE = 12
 DEVICE = 0  # Use 0 for GPU, 'cpu' for CPU
 
 # Model configuration
-MODEL_NAME = "yolo12m"  # Change this to train a different model
-MODEL_WEIGHTS = os.path.join("models", "yolo12m.pt")  # Use model from models folder
+MODEL_NAME = "yolov8s"  # Change this to train a different model
+MODEL_WEIGHTS = os.path.join("models", "yolov8s.pt")  # Use model from models folder
 
 def check_requirements():
     # Check if data.yaml exists
