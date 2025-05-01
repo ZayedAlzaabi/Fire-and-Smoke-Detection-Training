@@ -1,6 +1,8 @@
 # Fire and Smoke Detection Dataset Processing Scripts
 
 This repository contains a series of scripts for processing and preparing a dataset for fire and smoke detection using YOLOv8. Each script performs a specific task in the data preparation pipeline.
+All scripts should be run independently and in order.
+In order to train a model use the train_single_model.py and change the value of MODEL_NAME in the code.
 
 ## Script Overview
 
